@@ -1,25 +1,34 @@
-# 📖 The ArtLoom - E-commerce Application
+<table>
+  <tr>
+    <td>
+      <img src="./images/art.png" alt="The ArtLoom Logo" width="60">
+    </td>
+    <td>
+      <h1 style="margin-left: 15px;">The ArtLoom - 🛒 E-commerce Application</h1>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📚 Table of Contents
 
-* [About The ArtLoom](#about-the-artloom)
-* [Features](#features)
-* [Technologies Used](#technologies-used)
-* [Project Structure](#project-structure)
-* [API Endpoints](#api-endpoints)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Backend Setup](#backend-setup)
-    * [Frontend Setup](#frontend-setup)
-* [Screenshots](#screenshots)
-* [Contributing](#contributing)
-* [Author](#-author)
+* [📖 About The ArtLoom](#-about-the-artloom)
+* [✨ Features](#-features)
+* [🛠️ Technologies Used](#-technologies-used)
+* [🗂️ Project Structure](#-project-structure)
+* [🔗 API Endpoints](#-api-endpoints)
+* [🚀 Getting Started](#-getting-started)
+* [⚙️ Prerequisites](#️-prerequisites)
+* [🖥️ Backend Setup](#-backend-setup)
+* [💻 Frontend Setup](#-frontend-setup)
+* [🖼️ Screenshots](#-screenshots)
+* [🤝 Contributing](#-contributing)
+* [👨‍💻 Author](#-author)
 
-  ---
+---
 
-## 📦 About The ArtLoom
+## 📖 About The ArtLoom
 
 The ArtLoom is a comprehensive e-commerce platform designed to provide a seamless shopping experience for users to browse products, manage their carts, and more. This application is built with a robust Spring Boot backend for handling business logic and API services, and a dynamic Angular frontend for an interactive user interface. All APIs have been rigorously tested using Postman.
 
@@ -56,7 +65,7 @@ The ArtLoom is a comprehensive e-commerce platform designed to provide a seamles
 * **Git:** Version control.
 * **GitHub:** Code hosting.
 
-  ---
+---
 
 ## 🗂️ Project Structure
 
@@ -244,6 +253,7 @@ The following are the main API endpoints provided by the Spring Boot backend, ha
 * `POST /upload` - Upload an image file.
 * `POST /contact` - Submit a contact message.
 * `GET /contact` - Retrieve all contact messages.
+  
 ---
 ## 🚀 Getting Started
 
@@ -309,7 +319,7 @@ Make sure you have the following installed:
     ng serve --open
     ```
     This will open the application in your default browser at `http://localhost:4200`.
-   ---
+---
 
 ## 🖼️ Screenshots
 
@@ -333,9 +343,10 @@ Here are some screenshots of the ArtLoom application in action.
 * **Contact Form:**
     ![Contact Form Screenshot](./images/contact.png)
 
-  ---
+---
 
-  ## 🧾 Future Improvements
+## 🧾 Future Improvements
+
 **🛒 Payment Integration:** Add Razorpay/Stripe for secure checkout.
 
 **🔐 JWT Authentication:** Implement token-based security for APIs and session management.
