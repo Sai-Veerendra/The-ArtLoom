@@ -1,8 +1,8 @@
-# The ArtLoom - E-commerce Application
+# 📖 The ArtLoom - E-commerce Application
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
 * [About The ArtLoom](#about-the-artloom)
 * [Features](#features)
@@ -14,28 +14,28 @@
     * [Backend Setup](#backend-setup)
     * [Frontend Setup](#frontend-setup)
 * [Screenshots](#screenshots)
-* [Database Schema (Optional)](#database-schema-optional)
 * [Contributing](#contributing)
-* [License](#license)
+* [Author](#-author)
 
   ---
 
-## About The ArtLoom
+## 📦 About The ArtLoom
 
 The ArtLoom is a comprehensive e-commerce platform designed to provide a seamless shopping experience for users to browse products, manage their carts, and more. This application is built with a robust Spring Boot backend for handling business logic and API services, and a dynamic Angular frontend for an interactive user interface. All APIs have been rigorously tested using Postman.
 
 ---
-## Features
+## ✨ Features
 
 * **User Management:** Register, login, update, and delete user profiles.
-* **Product Catalog:** Browse a wide range of products, view details, and manage product listings (for admin/privileged users).
+* **Admin Panel:** Add, update, and delete products through a dedicated admin interface.
+* **Product Catalog:** Separate listing for readymade and customizable products.
 * **Shopping Cart:** Add, remove, and update quantities of items in the shopping cart.
 * **Contact Form:** Users can send messages through a contact form.
 * **Image Upload:** Backend support for uploading product images.
 * **Authentication:** Secure user login and authorization (implied by login API).
-* **Responsive Design:** (If your Angular app is responsive) A user-friendly interface that adapts to various screen sizes.
+* **Responsive Design:** A user-friendly interface that adapts to various screen sizes.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Backend
 * **Spring Boot:** Framework for building the RESTful API.
@@ -58,7 +58,7 @@ The ArtLoom is a comprehensive e-commerce platform designed to provide a seamles
 
   ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 This section outlines the directory structure of the ArtLoom project, separated into Frontend and Backend components.
 
@@ -202,7 +202,7 @@ This section outlines the directory structure of the ArtLoom project, separated 
 └── tsconfig.spec.json
 ```
 ---
-## API Endpoints
+## 🔗 API Endpoints
 
 The following are the main API endpoints provided by the Spring Boot backend, handled by `ArtLoomController.java`.
 
@@ -245,11 +245,11 @@ The following are the main API endpoints provided by the Spring Boot backend, ha
 * `POST /contact` - Submit a contact message.
 * `GET /contact` - Retrieve all contact messages.
 ---
-## Getting Started
+## 🚀 Getting Started
 
 Follow these instructions to set up and run the ArtLoom application on your local machine.
 
-### Prerequisites
+### ⚙️ Prerequisites
 
 Make sure you have the following installed:
 
@@ -261,7 +261,7 @@ Make sure you have the following installed:
 * **MySQL Server**
 * **Git**
 
-### Backend Setup
+### 🖥️ Backend Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -292,7 +292,7 @@ Make sure you have the following installed:
     The backend server will start on `http://localhost:8080` (or your configured port).
 ---
 
-### Frontend Setup
+### 💻 Frontend Setup
 
 1.  **Navigate to the frontend directory:**
     ```bash
@@ -311,7 +311,7 @@ Make sure you have the following installed:
     This will open the application in your default browser at `http://localhost:4200`.
    ---
 
-## Screenshots
+## 🖼️ Screenshots
 
 Here are some screenshots of the ArtLoom application in action.
 
@@ -335,7 +335,24 @@ Here are some screenshots of the ArtLoom application in action.
 
   ---
 
-## Contributing
+  ## 🧾 Future Improvements
+**🛒 Payment Integration:** Add Razorpay/Stripe for secure checkout.
+
+**🔐 JWT Authentication:** Implement token-based security for APIs and session management.
+
+**🧑‍🎨 Seller Module:** Introduce a seller entity so artists can list their products.
+
+**💳 Order History:** Let users view past orders and order status.
+
+**📦 Inventory Management:** Allow admins to track stock and availability.
+
+**📧 Email Notifications:** Send confirmation emails on registration, orders, and contact forms.
+
+**🌐 Multi-language Support:** Add support for multiple languages for wider reach.
+
+---
+
+## 🤝 Contributing
 
 We welcome contributions! If you'd like to contribute, please follow these steps:
 
